@@ -1,0 +1,14 @@
+Num = int(input("Enter a positive numbe with a least 3 digits: "))
+print("The number you entered is:", Num)
+binary = bin(Num)[2:]
+print("Converted into binary: ", binary)
+octal = oct(Num)[2:]
+print("Converted into octal: ", octal)
+hexadecimal = hex(Num)[2:]  
+print("Converted into hexadecimal: ", hexadecimal)
+last = Num % 10
+print("The last digit of the number is:", last)
+if Num % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
