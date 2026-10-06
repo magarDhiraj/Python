@@ -1,0 +1,13 @@
+# Exercise 11: Create and Access a Dictionary
+student = {
+    "name": "Ram",
+    "age": 20,
+    "course": "Python",
+    "city": "Kathmandu"
+}
+
+print("Complete dictionary:", student)
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Course:", student["course"])
+print("City:", student["city"])
